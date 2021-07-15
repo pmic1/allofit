@@ -1,0 +1,40 @@
+table {
+
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+border: 1px solid #dddddd;
+text-align: left;
+padding: 8px;
+
+}
+
+tr:nth-child(even) {
+
+background-color: #dddddd;
+
+}
+
+#t02 {
+width: 100%;
+background-color: rgb(139, 84, 84);
+
+}
+
+#t01 {
+    width: 100%;
+    background-color: rgb(78, 133, 78);
+}
+
+#col01 {
+    color:orange;
+    font-weight: bolder;
+}
+
+#col02 {
+    color:limegreen;
+    font-weight: bolder;
+}
