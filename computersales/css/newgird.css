@@ -31,3 +31,28 @@ body {
 body {
     background-color: lightblue;
   }
+  .topnav a {
+      background-color: aquamarine;
+      float: left;
+      display: block;
+      color: coral;
+      text-align: center;
+padding: 14px 16px;
+  }
+
+  .topnav a:hover {
+      background-color: gray;
+      color: black;
+    
+  }
+
+  @media screen and (max-width: 880px;) {
+      .topnav a {
+          float: none;
+          display: block;
+          text-align: left;
+          width: 25%;
+          padding: 8px 8px;
+      }
+  }
+      
